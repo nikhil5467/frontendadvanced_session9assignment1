@@ -1,0 +1,41 @@
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-xl-12">
+            <h2 class="page-header">
+                View Client Detail
+            </h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped">
+                    <tbody>
+                        <tr *ngFor="let ticket of clientTickets">
+                            <td>
+                                <div class="form-group  label-static col-sm-3 col-md-4 is-empty">
+                                    <label class="control-label" for="ticket.customerName">Customer</label>
+                                    <input class="form-control" [(ngModel)]="ticket.customerName" disabled />
+                                </div>
+                                <div class="form-group  label-static col-sm-3 col-md-1 is-empty">
+                                    <label class="control-label" for="ticket.ticketNumber">Ticket#</label>
+                                    <input class="form-control" [(ngModel)]="ticket.ticketNumber" disabled />
+                                </div>
+                                <div class="form-group  label-static col-sm-3 col-md-1 is-empty">
+                                    <label class="control-label" for="ticket.contactNumber">contact #</label>
+                                    <input class="form-control" [(ngModel)]="ticket.contactNumber" disabled />
+                                </div>
+                                <div class="form-group  label-static col-sm-3 col-md-1 is-empty">
+                                    <label class="control-label" for="ticket.product">Product</label>
+                                    <input class="form-control" [(ngModel)]="ticket.product" disabled />
+                                </div>
+                                <div class="form-group  label-static col-sm-3 col-md-2 is-empty">
+                                    <label class="control-label" for="ticket.dealDate">deal Date</label>
+                                    <input class="form-control" [(ngModel)]="ticket.dealDate" disabled />
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>

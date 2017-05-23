@@ -1,0 +1,26 @@
+[
+  {
+    "id":"1", 
+    "customerName": "Globant Corporation",
+    "ticketNumber": "1003",
+    "contactNumber": "12QW12",
+    "product": "Mobile App",
+    "dealDate": "05/22/2001"
+  },
+  {
+    "id":"2", 
+    "customerName": "Neev Information Technologies",
+    "ticketNumber": "1002",
+    "contactNumber": "FFF333",
+    "product": "Internal App",
+    "dealDate": "05/22/1996"
+  },
+  {
+    "id":"3", 
+    "customerName": "Orest AVIATION inc",
+    "ticketNumber": "1001",
+    "contactNumber": "FFF212",
+    "product": "Mobile Tracking App",
+    "dealDate": "05/22/2015"
+  }
+]
